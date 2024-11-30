@@ -12,5 +12,6 @@
 
 ## 外部リンク
 
-- [Yahoo Japan](http://www.yahoo.co.jp){:target="_blank"}
 
+- [Yahoo Japan](http://www.yahoo.co.jp)
+- "target=_blank"には対応していないもよう.
