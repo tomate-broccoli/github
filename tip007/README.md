@@ -12,8 +12,9 @@
 
 ## 外部リンク
 
-
 - [Yahoo Japan](http://www.yahoo.co.jp)
 - "target=_blank"には対応していないもよう.
+
+## 内部リンク
 
 - [Page 01](./page.01.md)
