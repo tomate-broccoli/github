@@ -12,5 +12,5 @@
 
 ## 外部リンク
 
-- [Yahoo Japan](http://www.yahoo.co.jp)
+- [Yahoo Japan](http://www.yahoo.co.jp)(_blank)
 
