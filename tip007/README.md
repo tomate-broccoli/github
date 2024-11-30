@@ -9,3 +9,8 @@
 | aaa | bbb | ddd | ddd |
 | a | f | g | h |
 | 1 | 2 | 3 | 4 |
+
+## 外部リンク
+
+- [Yahoo Japan](http://www.yahoo.co.jp)
+
