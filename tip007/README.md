@@ -24,3 +24,7 @@
 ```html
 <a href="http://www.yahoo.co.jp" target="_block">Yahoo Japan</a>
 ```
+
+## 取り消し線
+
+- ~~取り消し戦~~
