@@ -18,3 +18,9 @@
 ## 内部リンク
 
 - [Page 01](./page.01.md)
+
+## コードブロック
+
+```html
+<a href="http://www.yahoo.co.jp" target="_block">Yahoo Japan</a>
+```
