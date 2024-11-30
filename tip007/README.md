@@ -33,3 +33,7 @@
 
 [![画像](./tip_011a.png)]
 
+- 画像にリンクを設定
+
+[![画像](./tip_011a.png)](http://www.yahoo.co.jp)
+
