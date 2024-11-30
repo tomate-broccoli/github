@@ -37,3 +37,7 @@
 
 [![画像](./tip_011a.png)](http://www.yahoo.co.jp)
 
+
+## その他
+
+- [基本的な書き方とフォーマットの構文](https://docs.github.com/ja/enterprise-server@3.15/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) (github)
