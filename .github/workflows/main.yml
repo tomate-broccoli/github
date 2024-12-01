@@ -26,4 +26,11 @@ jobs:
     #  run: pwd ; cd tip012 ; pwd
 
     - name: Install dependencies and run tests
-      run: cd tip012 ; pwd ; gradle clean test --info
+      run: cd tip012 ; pwd ; gradle clean test 
+
+    - name: Upload Test Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-report
+        path: app/build/reports/tests/test/
+
