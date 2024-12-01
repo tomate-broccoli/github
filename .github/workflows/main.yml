@@ -34,5 +34,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: test-report
-        # path: app/build/reports/tests/test/
-        path: tip012/build/reports/
+        path: tip012/app/build/reports/tests/test/
+        # path: tip012/build/reports/
