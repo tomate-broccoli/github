@@ -23,4 +23,4 @@ jobs:
       run: pwd ; cd tip012 ; pwd
 
     - name: Install dependencies and run tests
-      run: pwd ; gradle clean test
+      run: cd tip012 ; pwd ; gradle clean test
