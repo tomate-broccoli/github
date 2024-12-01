@@ -28,9 +28,10 @@ jobs:
     - name: Install dependencies and run tests
       run: cd tip012 ; pwd ; gradle clean test 
 
+    # テストレポートをアーティファクトとしてアップロード
     - name: Upload Test Report
+      if: always() # テストが失敗してもレポートをアップロード
       uses: actions/upload-artifact@v3
       with:
         name: test-report
         path: app/build/reports/tests/test/
-
