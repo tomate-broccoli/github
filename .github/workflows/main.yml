@@ -22,8 +22,8 @@ jobs:
         distribution: 'temurin'
         java-version: '11' # 必要に応じてJavaのバージョンを変更
 
-    - name: change directory to tip012
-      run: pwd ; cd tip012 ; pwd
+    #- name: change directory to tip012
+    #  run: pwd ; cd tip012 ; pwd
 
     - name: Install dependencies and run tests
       run: cd tip012 ; pwd ; gradle clean test
