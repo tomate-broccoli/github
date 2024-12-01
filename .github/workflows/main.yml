@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'tip012/**'
+  workflow_dispatch:
 
 jobs:
   test:
