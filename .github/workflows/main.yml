@@ -1,0 +1,23 @@
+name: tip012
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up JDK
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '11' # 必要に応じてJavaのバージョンを変更
+
+    - name: Install dependencies and run tests
+      run: gradle clean test
