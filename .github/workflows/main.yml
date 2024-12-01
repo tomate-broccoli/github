@@ -20,7 +20,7 @@ jobs:
         java-version: '11' # 必要に応じてJavaのバージョンを変更
 
     - name: change directory to tip012
-      run: cd tip012
+      run: pwd ; cd tip012
 
     - name: Install dependencies and run tests
       run: gradle clean test
